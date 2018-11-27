@@ -1,2 +1,2 @@
 # blogLaravel
-Primera parte tutorial Envato Laravel API REST
+Primera parte del tutorial Envato Laravel API REST. Sin autentificacion.
