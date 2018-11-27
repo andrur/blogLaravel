@@ -25,7 +25,7 @@ class ProductsController extends Controller
     		'title' => 'required|unique:products|max:255',
     		'description' => 'required',    		
     		'price' => 'integer',
-    		'availability' => 'boolean',
+    		'availability' => 'boolean',    		
     ]);
     	$product = Product::create($request->all());
     	return response()->json($product, 201);
